@@ -9507,8 +9507,8 @@ module.exports = {
 ;(typeof module.exports === "function"? module.exports.options: module.exports).template = __vue_template__;
 
 },{"./character/ranta.vue":3,"./character/shatte.vue":4,"./overview/overview.vue":6,"./system/light.vue":7,"./system/player.vue":8,"./system/view.vue":9,"./world/kagemori.vue":10,"./world/kageoni.vue":11,"./world/prologue.vue":12,"insert-css":2}],6:[function(require,module,exports){
-require("insert-css")("#app #container #content .overview{line-height:3;text-align:center}#app #container #content .overview .thumb{margin-top:20px}#app #container #content .overview .thumb img{width:100%}");
-var __vue_template__ = "<div class=\"overview\"><h1>何でもアリの新感覚「影踏みアクション」！<div class=\"thumb\"><img src=\"public/img/top.png\"></div></h1></div>";
+require("insert-css")("#app #container #content #overview{height:100%;padding:0;background-color:transparent}#app #container #content #overview .overview{line-height:3;text-align:center;height:100%;background:url(public/img/top.png) top no-repeat;background-size:contain}#app #container #content #overview .overview h1{padding:100px 50px}");
+var __vue_template__ = "<div class=\"overview\"><h1>何でもアリの新感覚「影踏みアクション」！</h1></div>";
 module.exports = {};
 
 ;(typeof module.exports === "function"? module.exports.options: module.exports).template = __vue_template__;

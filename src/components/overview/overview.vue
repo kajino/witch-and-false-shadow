@@ -2,8 +2,6 @@
 .overview
   h1
     | 何でもアリの新感覚「影踏みアクション」！
-    .thumb
-      img(src="public/img/top.png")
 </template>
 
 <script lang="coffee">
@@ -14,11 +12,17 @@ module.exports = {}
 #app
   #container
     #content
-      .overview
-        line-height 3
-        text-align center
-        .thumb
-          margin-top 20px
-          img
-            width 100%
+      #overview
+        height 100%
+        padding 0
+        background-color: transparent;
+        .overview
+          line-height 3
+          text-align center
+          height 100%
+          background url(public/img/top.png) no-repeat
+          background-size contain
+          background-position top
+          h1
+            padding 100px 50px
 </style>
