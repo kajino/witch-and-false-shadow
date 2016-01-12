@@ -1,7 +1,7 @@
 <template lang="jade">
-.overview
+.download
   h1
-    | 何でもアリの新感覚「影踏みアクション」！
+    | 近日公開準備中
 </template>
 
 <script lang="coffee">
@@ -12,8 +12,8 @@ module.exports = {}
 #app
   #container
     #content
-      #overview
-        //height 100%
+      .download
+        height 100%
         padding 0
         background-color transparent
         .overview
@@ -21,11 +21,6 @@ module.exports = {}
           text-align center
           width 100%
           padding-top 56.6%
-          background url(public/img/top.jpg) no-repeat
-          background-size cover
-          background-position top
-          border solid 6px #fff
-          border-radius 60px
           h1
             position absolute
             top 0

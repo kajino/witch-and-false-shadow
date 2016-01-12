@@ -16,11 +16,11 @@
           p 影に取り憑いている魂を祓う。
       div.actions
         p.action(@click="onClickImg('stamp')")
-          img(src="public/img/action/stamp.png")
+          img(src="public/img/action/stamp.jpg")
         p.action(@click="onClickImg('insite')")
           img(src="public/img/action/insite.png")
         p.action(@click="onClickImg('harai')")
-          img(src="public/img/action/harai.png")
+          img(src="public/img/action/harai.jpg")
       h2 長押し
       ul
         li
@@ -31,9 +31,9 @@
           p 生物の影に入り込み対象を操る。
       div.actions
         p.action(@click="onClickImg('dive')")
-          img(src="public/img/action/dive.png")
+          img(src="public/img/action/dive.jpg")
         p.action(@click="onClickImg('marionette')")
-          img(src="public/img/action/marionette.png")
+          img(src="public/img/action/marionette.jpg")
   h1 影縫い（遠） : Bind or [x] key (Default)
   ul
     li
@@ -47,7 +47,7 @@
       p 一定の高さまで跳び上がる。着地時に影踏み（通常）判定がある。
   div.actions
     p.action(@click="onClickImg('jump')")
-      img(src="public/img/action/jump.png")
+      img(src="public/img/action/jump.jpg")
   h1 影法師 : Avatar or [v] key (Default)
   ul
     li
@@ -66,6 +66,7 @@ module.exports =
 #app
   #container
     #content
+      font-size 18px
       .system
         h1
           font-size 25px
@@ -81,7 +82,7 @@ module.exports =
                 display flex
                 margin 5px
                 label
-                  flex 0 0 100px
+                  flex 0 0 150px
                   line-height 1.5
                 p
                   flex 1 0 0
@@ -98,6 +99,7 @@ module.exports =
               height 100%
               transition all .5s ease
 .action-modal
+  z-index 100
   display none
   position fixed
   top 0
@@ -111,6 +113,7 @@ module.exports =
     width 600px
     height auto
     border solid 3px #fff
+    background-color #000
   &.active
     display flex
 </style>

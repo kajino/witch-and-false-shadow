@@ -35,6 +35,7 @@ module.exports = {}
     #content
       .world
         .prologue
-          line-height 3
+          line-height 2.2
+          font-size 20px
           text-align center
 </style>
