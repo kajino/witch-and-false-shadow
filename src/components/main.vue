@@ -32,6 +32,9 @@ header
           a 視点操作
     li(v-bind:class="{active: select == 'download'}")
       a(href="#" @click="onClickMenu('download', 'download')") 体験版
+    li.circle
+      a(href="http://diceycraft.wpblog.jp" target="_blank")
+        img(src="public/img/diceycraft.png")
   #content
     #overview(v-bind:class="{active: subSelect == 'overview'}")
       overview
@@ -180,6 +183,12 @@ ul
           padding 15px
           background rgba(0,0,0, 0.5)
           font-size 20px
+        &.circle
+          a
+            padding 8px 15px
+            display block
+            img
+              width 100%
         &.active
           > a
             background rgba(0,0,0, 0.7)
