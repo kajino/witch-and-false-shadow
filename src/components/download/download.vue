@@ -1,7 +1,14 @@
 <template lang="jade">
 .download
   h1
-    | 近日公開準備中
+    |  Windows版
+  p
+    a(href="https://docs.google.com/uc?id=0B6Wnl8o7quBVbnlyU252dldQb2c&export=download" target="_blank")
+      | ダウンロード
+  p
+    | ※ Windows環境で exe を実行できない場合はファイルを右クリックしてプロパティから実行を許可する必要があります。
+  h1
+    | Mac版 準備中
 </template>
 
 <script lang="coffee">
@@ -16,15 +23,15 @@ module.exports = {}
         height 100%
         padding 0
         background-color transparent
-        .overview
-          line-height 3
-          text-align center
-          width 100%
-          padding-top 56.6%
-          h1
-            position absolute
-            top 0
-            left 0
-            padding 20% 50px
-            width 100%
+        line-height 3
+        text-align center
+        width 100%
+        h1
+          font-size 22px
+        p
+          margin 15px
+          line-height 2
+          a
+            color blue
+            text-decoration underline
 </style>
