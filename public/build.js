@@ -9473,7 +9473,7 @@ module.exports = {};
 
 },{"insert-css":2}],5:[function(require,module,exports){
 require("insert-css")("#app #container #content .download{height:100%;padding:0;background-color:transparent;line-height:3;text-align:center;width:100%}#app #container #content .download h1{font-size:22px}#app #container #content .download p{margin:15px;line-height:2}#app #container #content .download p a{color:#00f;text-decoration:underline}");
-var __vue_template__ = "<div class=\"download\"><h1> Windows版</h1><p><a href=\"https://docs.google.com/uc?id=0B6Wnl8o7quBVSjN4V1VGNHhzNHc&amp;amp;export=download\" target=\"_blank\">ダウンロード</a></p><p>※ Windows環境で exe を実行できない場合はファイルを右クリックしてプロパティから実行を許可する必要があります。</p><h1>Mac版 準備中</h1></div>";
+var __vue_template__ = "<div class=\"download\"><h1> Windows版</h1><p><a href=\"https://docs.google.com/uc?id=0B6Wnl8o7quBVSGpuVllRdlBmdVU&amp;amp;export=download\" target=\"_blank\">ダウンロード</a></p><p>※ Windows環境で exe を実行できない場合はファイルを右クリックしてプロパティから実行を許可する必要があります。</p><h1>Mac版 準備中</h1></div>";
 module.exports = {};
 
 ;(typeof module.exports === "function"? module.exports.options: module.exports).template = __vue_template__;
