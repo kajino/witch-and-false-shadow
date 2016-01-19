@@ -4,9 +4,9 @@ header
 #container
   ul#menu
     li(v-bind:class="{active: select == 'overview'}")
-      a(href="javescript:void(0)" @click="onClickMenu('overview', 'overview')") 概要
+      a(href="javascript:void(0)" @click="onClickMenu('overview', 'overview')") 概要
     li(v-bind:class="{active: select == 'world'}")
-      a(href="javescript:void(0)" @click="onClickMenu('world', 'prologue')") 世界観
+      a(href="javascript:void(0)" @click="onClickMenu('world', 'prologue')") 世界観
       ul
         li(@click="onClickMenu('world', 'prologue')" v-bind:class="{active: subSelect == 'prologue'}")
           a プロローグ
@@ -15,14 +15,14 @@ header
         li(@click="onClickMenu('world', 'kagemori')" v-bind:class="{active: subSelect == 'kagemori'}")
           a 影守の一族
     li(v-bind:class="{active: select == 'character'}")
-      a(href="javescript:void(0)" @click="onClickMenu('character', 'shatte')") キャラクター
+      a(href="javascript:void(0)" @click="onClickMenu('character', 'shatte')") キャラクター
       ul
         li(@click="onClickMenu('character', 'shatte')" v-bind:class="{active: subSelect == 'shatte'}")
           a シャッテ
         li(@click="onClickMenu('character', 'ranta')" v-bind:class="{active: subSelect == 'ranta'}")
           a ランタ
     li(v-bind:class="{active: select == 'system'}")
-      a(href="javescript:void(0)" @click="onClickMenu('system', 'player')") 戦闘システム
+      a(href="javascript:void(0)" @click="onClickMenu('system', 'player')") 戦闘システム
       ul
         li(@click="onClickMenu('system', 'player')" v-bind:class="{active: subSelect == 'player'}")
           a プレイヤー操作
@@ -31,7 +31,7 @@ header
         li(@click="onClickMenu('system', 'view')" v-bind:class="{active: subSelect == 'view'}")
           a 視点操作
     li(v-bind:class="{active: select == 'download'}")
-      a(href="javescript:void(0)" @click="onClickMenu('download', 'download')") 体験版
+      a(href="javascript:void(0)" @click="onClickMenu('download', 'download')") 体験版
     li.circle
       a(href="http://diceycraft.wpblog.jp" target="_blank")
         img(src="public/img/diceycraft.png")
