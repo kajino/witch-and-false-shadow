@@ -72,8 +72,8 @@ div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'av
   img(src="public/img/action/avatar.png")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'special'}")
   img(src="public/img/action/special.png")
-div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'lock'}")
-  img(src="public/img/action/lock.png")
+div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'lock1'}")
+  img(src="public/img/action/lock1.png")
 div#bat1
   | {{""}}
 div#bat2

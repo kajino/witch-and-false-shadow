@@ -16,8 +16,8 @@
           label 長押し
           p 最も近くの対象をロックする。
   div.actions
-    p.action(@click="onClickImg('lock')")
-      img(src="public/img/action/lock.png")
+    p.action(@click="onClickImg('lock1')")
+      img(src="public/img/action/lock1.png")
   h1 自動ロック切替[近] : LockSwitchCloser or [q] key (Default)
   ul
     li
