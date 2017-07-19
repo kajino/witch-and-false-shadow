@@ -32,5 +32,8 @@
     "uglifyify": "^3.0.1",
     "vinyl-source-stream": "^1.1.0",
     "vueify": "^1.1.5"
+  },
+  "dependencies": {
+    "video.js": "^6.2.0"
   }
 }

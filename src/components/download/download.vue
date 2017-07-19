@@ -1,12 +1,13 @@
 <template lang="jade">
 .download
   h1
-    |  Windows版
-  p
-    a(href="https://docs.google.com/uc?id=0B6Wnl8o7quBVSGpuVllRdlBmdVU&export=download" target="_blank")
-      | ダウンロード
-  p
-    | ※ Windows環境で exe を実行できない場合はファイルを右クリックしてプロパティから実行を許可する必要があります。
+    |  Windows版 準備中
+
+    //a(href="https://docs.google.com/uc?id=0B6Wnl8o7quBVSGpuVllRdlBmdVU&export=download" target="_blank")
+    //  | ダウンロード
+  //p
+    //| ※ Windows環境で exe を実行できない場合はファイルを右クリックしてプロパティから実行を許可する必要があります。
+  br
   h1
     | Mac版 準備中
 </template>

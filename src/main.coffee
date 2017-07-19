@@ -1,4 +1,5 @@
 Vue = require "vue"
+#window.videojs = require "videojs"
 vueMain = require "./components/main.vue"
 
 app = module.exports = new Vue {

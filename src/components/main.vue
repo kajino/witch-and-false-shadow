@@ -33,7 +33,7 @@ header
     li(v-bind:class="{active: select == 'download'}")
       a(href="javascript:void(0)" @click="onClickMenu('download', 'download')") 体験版
     li.circle
-      a(href="http://diceycraft.wpblog.jp" target="_blank")
+      a(href="http://blog.diceycraft.info" target="_blank")
         img(src="public/img/diceycraft.png")
   #content
     #overview(v-bind:class="{active: subSelect == 'overview'}")
@@ -56,22 +56,24 @@ header
       system-view
     #download(v-bind:class="{active: subSelect == 'download'}")
       download
-
-div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'stamp'}")
-  img(src="public/img/action/stamp.jpg")
+div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'bind2'}")
+  img(src="public/img/action/bind2.png")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'insite'}")
   img(src="public/img/action/insite.png")
-div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'harai'}")
-  img(src="public/img/action/harai.jpg")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'dive'}")
-  img(src="public/img/action/dive.jpg")
+  img(src="public/img/action/dive.png")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'marionette'}")
-  img(src="public/img/action/marionette.jpg")
+  img(src="public/img/action/marionette.png")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'bind'}")
   img(src="public/img/action/bind.png")
 div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'jump'}")
-  img(src="public/img/action/jump.jpg")
-
+  img(src="public/img/action/jump.png")
+div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'avatar'}")
+  img(src="public/img/action/avatar.png")
+div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'special'}")
+  img(src="public/img/action/special.png")
+div.action-modal(@click="onClickImg('')" v-bind:class="{active: imgSelect == 'lock'}")
+  img(src="public/img/action/lock.png")
 div#bat1
   | {{""}}
 div#bat2
@@ -86,6 +88,7 @@ module.exports =
     select: "overview"
     subSelect: "overview"
     imgSelect: ""
+
   methods:
     onClickMenu: (name, subName) ->
       @select = name
@@ -159,6 +162,9 @@ ul
       flex 1 0 0
       margin 0 35px 0 15px
       height 100%
+      pv
+
+
       > *
         //position absolute
         //top 0
