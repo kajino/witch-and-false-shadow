@@ -32,6 +32,8 @@ header
           a 視点操作
     li(v-bind:class="{active: select == 'download'}")
       a(href="javascript:void(0)" @click="onClickMenu('download', 'download')") 体験版
+    li
+      a(href="http://press.diceycraft.info/steam201711/index.html" target="_blank") プレスキット
     li.circle
       a(href="http://blog.diceycraft.info" target="_blank")
         img(src="public/img/diceycraft.png")
